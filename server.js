@@ -4,7 +4,11 @@ const connectDB = require("./config/db")
 const app = express()
 
 //Connects to database
-connectDB()
+connectDB
+
+// initi body-parser ; used to be a separate NPM but now is inlcuded in express;
+// still needs to be initialized
+app.use(express.json({ extended:false }))
 
 // Route endpoint "/"
 app.get("/" , (req,res ) => {
