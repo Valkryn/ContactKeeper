@@ -1,0 +1,3 @@
+{
+  "mongoURI" : "mongodb+srv://Cloud:Cloud1234@contactkeeper.mosne.mongodb.net/ContactKeeper?retryWrites=true&w=majority"
+}
