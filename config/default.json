@@ -1,3 +1,4 @@
 {
-  "mongoURI" : "mongodb+srv://Cloud:Cloud123@test.mosne.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI" : "mongodb+srv://Cloud:Cloud123@test.mosne.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtsecret": "secret"
 }
